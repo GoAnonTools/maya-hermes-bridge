@@ -1,0 +1,15 @@
+# Python environments and bytecode
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Runtime logs
+bridge.log
+*.log
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
